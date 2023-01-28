@@ -1,38 +1,103 @@
-.App {
+
+.text_nasa{
+  font-size: 20px;
+  color: aliceblue;
+  font-weight: 700;
+}
+
+.logo_nasa{
+  margin-left: 75%;
+  width: 110px;
+  height: 90px;
+  margin-top: 80px;
+}
+
+.contenedor_text{
+  position: absolute;
+  width: 250px;
+  margin-top: 95px;
+  margin-left: 64%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.input{
+  margin-left: 390px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn_input{
+  margin-left: 1210px;
+  margin-top: -67px;
+  position: absolute;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.form_input{
+  background: rgb(22, 18, 39);
+  color: rgb(41, 15, 187);
+  border: solid rgb(21, 71, 180);
+  font-weight: 700;
+  font-size: 30px;
+  width: 790px;
+  position: relative;
 }
 
-.App-link {
-  color: #61dafb;
+.form_input:focus{
+  background: rgb(22, 18, 39);
+  color: rgb(187, 15, 15);
+  border: solid rgb(21, 71, 180);
+  font-weight: 700;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input.form_input::placeholder { /* Ccambiar color del placeholder*/
+  color: rgb(218, 19, 19);
+  opacity: 1; /* Firefox */
+}
+
+
+.paginator{
+  margin-left: 40%;
+  position: sticky;
+}
+
+
+.modal{
+  display: none;
+  position: relative;
+}
+
+.conten1-open2{
+  display: block;
+  width: 790px;
+  height: 100px;
+  margin-top: -0.8%;
+  margin-left: 21.7%;
+  background-color: black;
+}
+
+.conten1-open3{
+  display: block;
+  width: 790px;
+  height: 155px;
+  margin-top: -0.8%;
+  margin-left: 21.7%;
+  background-color: black;
+}
+
+.list-items4{
+  width: 790px;
+  height: 90%;
+}
+
+
+
+.item-3{
+  color: red;
+  font-size: 20px;
+}
+
+.item-3:hover{
+  background-color: chartreuse;
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgb(39, 192, 19);
 }
